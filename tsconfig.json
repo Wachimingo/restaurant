@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": [
+      "ES2020",
+      "ES2022",
+      "DOM"
+    ],
+    "baseUrl": "./src/",
+    "paths": {
+      "pages/*": [
+        "pages/*"
+      ],
+      "_common/*": [
+        "pages/_common/*"
+      ],
+      "themes/*": [
+        "themes/*"
+      ],
+      "interfaces/*": [
+        "interfaces/*"
+      ],
+      "hooks/*": [
+        "hooks/*"
+      ],
+      "utils/*": [
+        "utils/*"
+      ],
+      "images/*": [
+        "images/*"
+      ],
+      "json/*": [
+        "json/*"
+      ]
+    },
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "alwaysStrict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+  }
+}
