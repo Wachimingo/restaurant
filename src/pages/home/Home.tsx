@@ -11,11 +11,11 @@ const Home: FC = () => {
             localStorage.setItem('dishes', JSON.stringify(_dishes));
         }
     }, [])
-    return <Container backgroundImage='/assets/home_background.webp'>
+    return <Container backgroundImage='https://raw.githubusercontent.com/Wachimingo/restaurant/main/docs/assets/home_background.webp'>
         <NavBar />
         <Main column>
             <H1>Restaurant</H1>
-            <IMG src='/assets/logo.webp' />
+            <IMG src='https://raw.githubusercontent.com/Wachimingo/restaurant/main/docs/assets/logo.webp' />
             <H2>Nice taste</H2>
             <P>Today's menu:</P>
             <Suspense>
@@ -27,15 +27,15 @@ const Home: FC = () => {
             <Div>
                 <Div column>
                     <H4>Breakfast</H4>
-                    <IMG src='/assets/breakfast.webp' width='22rem' height='22rem' />
+                    <IMG src='https://raw.githubusercontent.com/Wachimingo/restaurant/main/docs/assets/breakfast.webp' width='22rem' height='22rem' />
                 </Div>
                 <Div column>
                     <H4>Lunch</H4>
-                    <IMG src='/assets/lunch.webp' width='22rem' height='22rem' />
+                    <IMG src='https://raw.githubusercontent.com/Wachimingo/restaurant/main/docs/assets/lunch.webp' width='22rem' height='22rem' />
                 </Div>
                 <Div column>
                     <H4>Dinner</H4>
-                    <IMG src='/assets/dinner.webp' width='22rem' height='22rem' />
+                    <IMG src='https://raw.githubusercontent.com/Wachimingo/restaurant/main/docs/assets/dinner.webp' width='22rem' height='22rem' />
                 </Div>
             </Div>
         </Section>

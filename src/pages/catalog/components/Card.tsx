@@ -11,7 +11,7 @@ type CardProps = {
 
 export default ({ name, description, price, image, children }: CardProps) => <Card>
     {children}
-    <IMG src={`/assets/${image}`} width='100%' height='250px' />
+    <IMG src={`https://raw.githubusercontent.com/Wachimingo/restaurant/main/docs/assets/${image}`} width='100%' height='250px' />
     <H4>{name}</H4>
     <P>{description}</P>
     <P>${price}</P>

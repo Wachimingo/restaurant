@@ -31,7 +31,7 @@
 `,c=n.ZP.tr`
     &:nth-child(even){background-color: ${e=>"light"===e.theme.id?"#D4D3D3":"#615F5F"}}
     &:hover {background-color: #ddd;}
-`},516:(e,t,r)=>{var n=r(959),l=r(478),a=r(725),o=r(943),c=r(686),m=r(917),i=r(284);const s=({name:e,price:t,image:r,children:l})=>n.createElement(m.Zb,null,n.createElement(m.MY,{src:`../_images/${r}`,width:"100%",height:"250px"}),n.createElement(m.H4,null,e),n.createElement(m.H3,null,"$",t),l),u=(0,a.ZP)(m.zx)`
+`},516:(e,t,r)=>{var n=r(959),l=r(478),a=r(725),o=r(943),c=r(686),m=r(917),i=r(284);const s=({name:e,price:t,image:r,children:l})=>n.createElement(m.Zb,null,n.createElement(m.MY,{src:`https://raw.githubusercontent.com/Wachimingo/restaurant/main/docs/assets/${r}`,width:"100%",height:"250px"}),n.createElement(m.H4,null,e),n.createElement(m.H3,null,"$",t),l),u=(0,a.ZP)(m.zx)`
     border-radius: 100%;
     width: auto;
     height: auto;

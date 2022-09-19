@@ -22,7 +22,7 @@ module.exports = {
         publicPath: '',
         filename: !devMode ? './bundles/[name].[contenthash].bundle.js' : './bundles/[name].bundle.js',
         // path: path.resolve(__dirname, '../backend-restaurant-node-fastify/app/', 'public'),
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'docs'),
         assetModuleFilename: 'assets/[name][ext]',
         asyncChunks: true
     },
@@ -140,7 +140,7 @@ module.exports = {
     },
     devServer: {
         port: 3001,
-        static: './dist',
+        static: './docs',
         devMiddleware: {
             index: 'index.html',
             writeToDisk: true

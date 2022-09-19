@@ -69,7 +69,7 @@ export const Slide_indicator = styled.a`
 export const Carousel = ({ data }) => {
     const indicator = data?.map((_, i) => <Slide_indicator key={`indicator_${i}`} href={`#slide-${i}`}>{i + 1}</Slide_indicator>);
     const items = data?.map((item, i) => <Slide_item key={`item_${i}`} id={`slide-${i}`}>
-        <IMG src={`/assets/${item.image}`} />
+        <IMG src={`https://raw.githubusercontent.com/Wachimingo/restaurant/main/docs/assets/${item.image}`} />
     </Slide_item>);
 
     return <Slider>

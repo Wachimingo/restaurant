@@ -112,9 +112,9 @@ export const NavBar = () => {
             </MobileMenuIcon>
             <Menu id='mainBar' title='mainBar' open={isOpen}>
                 <div>
-                    <StyledLink href='/index.html'>Home</StyledLink>
-                    <StyledLink href='/catalog.html'>Catalog</StyledLink>
-                    <StyledLink href='/transactions/sell.html'>Sell</StyledLink>
+                    <StyledLink href='/restaurant/index.html'>Home</StyledLink>
+                    <StyledLink href='/restaurant/catalog.html'>Catalog</StyledLink>
+                    <StyledLink href='/restaurant/transactions/sell.html'>Sell</StyledLink>
                 </div>
             </Menu>
             <Toggle isActive={id === 'dark'} onToggle={setTheme} />
